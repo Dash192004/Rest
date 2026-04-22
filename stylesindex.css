@@ -4,6 +4,11 @@ body{
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+@media(max-width:600px){
+    body{
+        font-size: 18px;
+    }
+}
 #co{
     text-align: right;
 }
