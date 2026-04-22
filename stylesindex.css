@@ -10,6 +10,7 @@ body{
         grid-template-columns: auto 1fr auto;
     }
     #im{
+        grid-column: 1/2;
         width: auto;
         height: auto;
     }
