@@ -6,11 +6,8 @@ body{
 }
 @media(max-width:600px){
     img{
-        width:100%;
+        width:222px;
         height: auto;
-    }
-    #co{
-        margin-right: 1%;
     }
 }
 #co{
