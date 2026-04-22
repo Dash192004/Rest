@@ -10,11 +10,8 @@ body{
         grid-template-columns: auto 1fr auto;
     }
     #im{
-        width: 50px;
+        width: auto;
         height: auto;
-    }
-    #co{
-        grid-column: 3;
     }
 }
 #co{
