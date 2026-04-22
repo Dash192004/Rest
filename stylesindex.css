@@ -9,9 +9,7 @@ tr{
 }
 @media(max-width:768px){
     #im{
-        width: 200px;
-        height: 200px;
-        align-items: left;
+        max-width: 250px;
     }
 }
 
