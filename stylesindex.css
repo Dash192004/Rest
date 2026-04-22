@@ -1,3 +1,7 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(184, 184, 184) ;
+}
 button{
     cursor: pointer;
 }
@@ -12,4 +16,6 @@ tr{
         max-width: 250px;
     }
 }
-
+a{
+    color:blue
+}
