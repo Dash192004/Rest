@@ -28,15 +28,19 @@
                 <li>Churros</li>
                 <li>Cafés</li>
               </ol>
-              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+              <img id="im" alt="Imagen del restaurante" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
         </main>
         <footer>
             <form>
-                <label id="cu">Cuestionario:</label ><br>
-                    <input type = "text" placeholder="Nombre" required><br>
-                    <input type="email" placeholder="Email" required><br>
-                    <input type="text" placeholder="Comenta tu experiencia"><br>
-                    <button type = "submit">Enviar</button>
+                <label id="cu"><br>
+                    <fieldset>
+                      <legend>Cuestionario:</legend><br>
+                        <input type="email" placeholder="Email" required><br>
+                        <input type="text" placeholder="Comenta tu experiencia"><br>
+                        <button type = "submit">Enviar</button>
+                      
+                    </fieldset>
+                </label >
                     <br>
                     <br>
                 <select id = "enc">
@@ -52,8 +56,20 @@
                 <a href="#cu">Cuestionario</a><br>
             </nav>
             <br>
-            <div id="co">&copy; Dauris 2026</div>
+            <table border="1">
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Apellidos:</td>
+                    <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    </tr>
+                </tr>
+            </table>
             <details>Tu mejor opción si quieres un servicio excelente</details>
+            <a href="tel= 645 47 88 04">Llamame</a>
+            <div id="co">&copy; Dauris 2026</div>
         </footer>
+        <script src="index.js"></script>
     </body>
 </html>

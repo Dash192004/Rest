@@ -1,24 +1,10 @@
-
-body{
-    background: rgb(0, 0, 0);
-    color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+button{
+    cursor: pointer;
 }
-@media(max-width:600px){
-    body{
-        display: grid;
-        grid-template-columns: auto 1fr auto;
-    }
-    #im{
-        grid-column: 1/2;
-        width: auto;
-        height: auto;
-    }
+details{
+    cursor: pointer;
 }
-#co{
-    text-align: right;
-}
-button:hover{
-    background-color: lightslategrey;
+tr{
+    background-color:rgb(62, 91, 255) ;
 }
 
