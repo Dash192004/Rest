@@ -1,0 +1,13 @@
+
+body{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#co{
+    text-align: right;
+}
+button:hover{
+    background-color: lightslategrey;
+}
+
