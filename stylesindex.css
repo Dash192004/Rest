@@ -5,9 +5,16 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 @media(max-width:600px){
-    img{
-        width:222px;
+    body{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+    }
+    #im{
+        width:100%;
         height: auto;
+    }
+    #co{
+        grid-column: 3;
     }
 }
 #co{
