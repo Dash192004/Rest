@@ -7,4 +7,10 @@ details{
 tr{
     background-color:rgb(62, 91, 255) ;
 }
+@media(max-width:768px){
+    #im{
+        width: 200px;
+        height: auto;
+    }
+}
 
