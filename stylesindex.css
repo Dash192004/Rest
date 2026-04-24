@@ -5,6 +5,13 @@
 button{
     cursor: pointer;
 }
+button:hover{
+    color : blue
+}
+button:active{
+    border: rgb(28, 0, 187);
+    color: rgb(0, 26, 49);
+}
 details{
     cursor: pointer;
 }
@@ -18,4 +25,8 @@ tr{
 }
 a{
     color:blue
+}
+.caf{
+    width: 12vw;
+    height: auto;
 }
