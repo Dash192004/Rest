@@ -18,6 +18,9 @@ details{
 tr{
     background-color:rgb(62, 91, 255) ;
 }
+.mi{
+    max-width: 250px;
+}
 @media(max-width:768px){
     #im{
         max-width: 100%;
@@ -35,4 +38,13 @@ tr{
 }
 a{
     color:blue
+}
+nav > a {
+    display: inline-flex;
+    padding-right: 28%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav + a{
+    border-left: 5px;
 }
