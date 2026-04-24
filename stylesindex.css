@@ -22,6 +22,16 @@ tr{
     #im{
         max-width: 250px;
     }
+    .caf{
+        max-width: 12vw;
+    }
+    button:hover{
+        color : blue
+    }
+    button:active{
+        border: rgb(28, 0, 187);
+        color: rgb(0, 26, 49);
+    }
 }
 a{
     color:blue
