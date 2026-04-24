@@ -20,7 +20,7 @@ tr{
 }
 @media(max-width:768px){
     #im{
-        max-width: 250px;
+        max-width: 100%;
     }
     .mi{
         max-width: 111px;
