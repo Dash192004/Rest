@@ -23,7 +23,7 @@ tr{
         max-width: 250px;
     }
     .caf{
-        width: 50px;
+        max-width: 50px;
     }
     button{
         color : blue
@@ -35,8 +35,4 @@ tr{
 }
 a{
     color:blue
-}
-.caf{
-    width: 12vw;
-    height: auto;
 }
