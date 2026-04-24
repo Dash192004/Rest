@@ -23,9 +23,9 @@ tr{
         max-width: 250px;
     }
     .caf{
-        max-width: 12vw;
+        max-width: 125px;
     }
-    button:hover{
+    button{
         color : blue
     }
     button:active{
